@@ -1,0 +1,54 @@
+{
+  "name": "js-dev-template",
+  "version": "1.0.0",
+  "description": "JS dev template",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "latest",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "jest-css-modules": "^2.0.0",
+    "source-map": "^0.7.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "scripts": {
+    "lint": "eslint ./js-dev-template/",
+    "start": "webpack-dev-server --mode development --watch",
+    "dev": "webpack-dev-server --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavalapka/js-dev-template.git"
+  },
+  "keywords": [
+    "JS",
+    "Project"
+  ],
+  "author": "kavalapka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavalapka/js-dev-template/issues"
+  },
+  "homepage": "https://github.com/kavalapka/js-dev-template#readme"
+}
